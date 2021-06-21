@@ -6,4 +6,15 @@ $(document).ready(function () {
       $(".header").removeClass("sticky");
     }
   });
+
+  // slide-up script
+  $(".btn-arrow-up").click(function () {
+    $("html").animate({ scrollTop: 0 });
+  });
+
+  // TOGGLE MENU / NAVBAR SCRIPT
+  $(".menu-mobile").click(function () {
+    $(".nav").toggleClass("active");
+    // $(".menu-btn").toggleClass("active");
+  });
 });

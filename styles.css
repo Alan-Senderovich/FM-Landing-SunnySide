@@ -75,9 +75,9 @@ h5 {
 }
 
 .nav li:last-child {
-  margin: 5px 0 5px 35px;
+  margin: 5px 0 21px 35px;
   color: darkblue;
-  background-color: white;
+  background-color: #ffd600;
   border-radius: 25px;
   padding: 13px 30px 10px;
   font-family: "Fraunces";
@@ -372,20 +372,32 @@ h5 {
   .nav {
     display: block;
     position: fixed;
-    background-color: red;
-    height: 100vh;
-    width: 100%;
+    background-color: white;
+    height: 75vh;
+    width: 80%;
+    margin-top: 80px;
     padding: 0;
     top: 0;
-    left: 0;
+    left: -100%;
     padding-top: 80px;
     text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .menu-mobile {
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  .header .nav.active {
+    left: 9%;
   }
 
   .nav .nav-item {
     width: 100px;
     margin: 0 auto;
     padding: 21px;
+    color: black;
   }
 
   .nav li:last-child {
