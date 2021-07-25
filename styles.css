@@ -231,7 +231,7 @@ h5 {
 
 .testimonials .row {
   display: flex;
-  margin: 50px 5% 0;
+  width: 100%;
 }
 
 .testimonials .col {
@@ -503,7 +503,8 @@ h5 {
   }
 
   .cuarta-content {
-    width: 387px;
+    width: 100%;
+    padding: 0 5%;
   }
 
   .cuarta-content h2 {
